@@ -14,7 +14,7 @@ namespace EmployeeServiceHost
             using (ServiceHost host = new ServiceHost(typeof(EmployeeService.EmployeeService)))
             {
                 host.Open();
-                Console.WriteLine("Host started at" + DateTime.Now.ToString());
+                Console.WriteLine("Your Host started at" + DateTime.Now.ToString());
                 Console.ReadLine();
             }
         }
